@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-      - main # or the name of your main branch
+      - main # or the name of your main branch #should be main, commented to master for now
 jobs:
   build:
     name: Build

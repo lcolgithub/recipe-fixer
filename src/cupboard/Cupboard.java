@@ -5,9 +5,9 @@ import ingredients.Ingredient;
 import java.util.ArrayList;
 
 public class Cupboard {
-    private ArrayList<Ingredient> ingredients;
+    private Integer[] ingredientAmounts = new Integer[5];
 
     public Cupboard(){
-        ingredients = new ArrayList<>();
+
     }
 }

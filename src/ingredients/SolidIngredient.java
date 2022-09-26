@@ -9,6 +9,10 @@ public class SolidIngredient implements Ingredient {
         this.ingredientID = ingredientID;
     }
 
+    public int getID(){
+        return ingredientID;
+    }
+
     public String toString(){
         return "ID: " + ingredientID + ", Name: " + name;
     }
